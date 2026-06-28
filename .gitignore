@@ -1,0 +1,11 @@
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Local n8n exports/backups you don't want tracked
+*.backup.json
+
+# Original unrenamed files (kept locally, not needed in repo)
+ESG Risk Scoring System_demo.json
+ESG Risk Scoring.png
+n8n - ESG Risk Scoring- Project Summary.docx
