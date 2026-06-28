@@ -42,10 +42,6 @@ flowchart TD
     F --> I
 ```
 
-A screenshot of the live n8n canvas is also included for reference:
-
-![n8n workflow canvas](assets/n8n-canvas-screenshot.png)
-
 ## Tech stack
 
 - **n8n** — workflow orchestration (Form Trigger, Extract from File, IF, Set, Sort, Limit, Merge, Gmail nodes)
@@ -63,12 +59,6 @@ n8n-esg-risk-scoring/
 └── README.md
 ```
 
-## Running this workflow
-
-1. Import `workflow/esg-risk-scoring.json` into your n8n instance.
-2. Connect a Gmail OAuth2 credential to the "Send a message" node.
-3. Update the placeholder recipient email address to your own.
-4. Upload a CSV with `source_name`, `emissions_quantity`, and `difficulty_score` columns via the form trigger.
 
 > **Note:** No supplier data is included in this repository. The original dataset is not published here for data hygiene reasons; the workflow can be tested with any CSV matching the schema above.
 
