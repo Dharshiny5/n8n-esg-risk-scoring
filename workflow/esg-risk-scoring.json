@@ -259,7 +259,7 @@
     },
     {
       "parameters": {
-        "sendTo": "dharshinikrishnan58@gmail.com",
+        "sendTo": "sustainability-team@example.com",
         "subject": "URGENT: High ESG Risk Assessment Alert",
         "emailType": "text",
         "message": "=Dear {{ $json.source_name }},  \n\nYou have been identified as one of the  TOP 5 HIGHEST RISK suppliers in our  ESG assessment.  \n\nRisk Level: {{ $json.risk_level }} \nEmissions Quantity: {{ $json.emissions_quantity }} \nmetric tonnes Difficulty Score: {{ $json.difficulty_score }} \n\nImmediate action is required to reduce  your emissions. Please contact our  sustainability team urgently.  \n\nRegards, \nSustainability Team",
